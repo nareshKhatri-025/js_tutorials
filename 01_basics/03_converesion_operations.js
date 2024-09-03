@@ -47,14 +47,14 @@ let valueInNumber=Number(score);
 // NaN
 // ==================Boolean Converiosn=======
 let isLogged =true;
-console.log(typeof isLogged);
+// console.log(typeof isLogged);
 isLogged=Boolean(1);
-console.log(typeof isLogged);
+// console.log(typeof isLogged);
 isLogged=Boolean("");
 
-console.log(typeof isLogged);
+// console.log(typeof isLogged);
 
-console.log( isLogged);
+// console.log( isLogged);
 //output
 // boolean
 // boolean
@@ -65,7 +65,30 @@ console.log( isLogged);
 
 stringFromBoolean=String(isLogged);
 
-console.log(stringFromBoolean)
+// console.log(stringFromBoolean)
+
+// ===========================Operations==================
+
+let value =3
+let negVlaue=-value;
+console.log(negVlaue);
+console.log(3+2);//addition
+console.log(2-2);//subtraction
+console.log(2*3);//multiplication
+console.log(2**3);//power
+console.log(9/3)// divide
+console.log(2%2); //remainder
+
+//output
+// -3
+// 5
+// 0
+// 6
+// 8
+// 3
+// 0
+
+
 
 
 
